@@ -1,0 +1,69 @@
+:root {
+    --primaryColor: #00A2E9;
+    --hoverColor: #2088ff;
+    --smoothTrans: 0.2s all;
+    --smoothShadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
+/* About */
+#service {
+    padding:200px 0 !important;
+}
+
+.row-services .card {
+    border:#ddd solid 1px;
+    box-shadow:var(--smoothShadow);
+    border-radius:20px;
+    transition:0.3s;
+} .row-services .card:hover {
+    border:#00A2E9 solid 1px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    scale:105%;
+}
+
+/* Portofolio */
+#portofolio {
+    padding:100px 0;
+}
+
+.portofolio-section .btn {
+    border:1px solid #ddd;
+    border-radius:100px;
+    padding:8px 25px;
+}
+
+.portofolio-section .btn:hover {
+    border:1px solid #333;
+}
+
+.portofolio-section .active-portofolio {
+    border:1px solid #333;
+    background:#333;
+    color:white;
+}
+
+.portofolio-cards .card {
+    border-radius:15px;
+    box-shadow:var(--smoothShadow);
+}
+/* Footer */
+.foo-1,.foo-2 {
+    font-size:0.9em;
+}
+
+.foo-1 a,.foo-3 a {
+    margin-bottom:15px;
+    text-decoration:none;
+    color:#ddd;
+    transition:var(--smoothTrans);
+} .foo-1 a:hover,.foo-3 a:hover {
+    cursor:pointer;
+    color:#fff !important;
+    text-decoration:underline !important;
+}
+
+@media (max-width: 992px) {
+    .row-card {
+        text-align: left !important;
+    }
+}

@@ -1,0 +1,24 @@
+@import './content.css';
+
+.jumbotron {
+    height:100vh;
+    width:100%;
+    margin-bottom:100px;
+}
+
+.textPrimary {
+    color:var(--primaryColor);
+}
+
+@media (max-width: 992px) {
+    .jumbotron::before {
+        content:'';
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        position:absolute;
+        z-index:-1;
+        background:#e8ffff;
+    }
+}
