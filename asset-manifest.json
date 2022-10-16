@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SANS.IT/static/css/main.8efc208c.css",
-    "main.js": "/SANS.IT/static/js/main.889feeeb.js",
+    "main.css": "/SANS.IT/static/css/main.1623d7e8.css",
+    "main.js": "/SANS.IT/static/js/main.7de38141.js",
     "static/media/sansit1.jpg": "/SANS.IT/static/media/sansit1.1480e34ef29d5d1a2686.jpg",
     "static/media/bootstrap-icons.woff?": "/SANS.IT/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/SANS.IT/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/Logo.png": "/SANS.IT/static/media/Logo.c0b4339f911f3413370b.png",
     "static/media/programming.svg": "/SANS.IT/static/media/programming.1f3ca782e7ec9061110914f65e2a3eb9.svg",
     "index.html": "/SANS.IT/index.html",
-    "main.8efc208c.css.map": "/SANS.IT/static/css/main.8efc208c.css.map",
-    "main.889feeeb.js.map": "/SANS.IT/static/js/main.889feeeb.js.map"
+    "main.1623d7e8.css.map": "/SANS.IT/static/css/main.1623d7e8.css.map",
+    "main.7de38141.js.map": "/SANS.IT/static/js/main.7de38141.js.map"
   },
   "entrypoints": [
-    "static/css/main.8efc208c.css",
-    "static/js/main.889feeeb.js"
+    "static/css/main.1623d7e8.css",
+    "static/js/main.7de38141.js"
   ]
 }
